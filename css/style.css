@@ -1,0 +1,41 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+html { 
+			background: url(img/citybg.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+	.aboutimg {
+		position:absolute;
+		bottom:10px;
+		right:10px;
+		height:32px;
+	}
+	.aboutdiv {
+		position:absolute;
+		font-family:"Titillium Web","Segoe UI","Helvetica Neue",sans-serif;
+		font-weight:bold;
+		color:#222;
+		bottom:14px;
+		right:50px;
+		font-size:12px;
+	}
+	.aboutdiv span {
+		font-size: 14px;
+	}
